@@ -2,17 +2,7 @@
 
 See companion blog & explanation here: https://medium.com/@valgaze/from-zero-to-private-docker-registry-b42abad46fef
 
-Requirements:
 
-- Docker
-
-- AWS acccount + resource permissions to use AWS Elastic Container Registry (ECR)
-
-
-
-## tl;dr version:
-
-Run the following from the root of this repo, if you don't have npm/node available see "scripts" section of root package.json, destroy container & image with ```npm run killall```
 
 ### Build the image, it will be tagged as 'namegame:latest' (verify with $ docker images)
 
